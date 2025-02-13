@@ -9,8 +9,9 @@ body {
 }
 
 #game-arena {
-    width: 700px;
+    width: 600px;
     height: 500px;
+    position: relative;
     background-color: #6dd5ed;
     border: 5px solid #2C5364;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -24,8 +25,8 @@ body {
 }
 
 .start-button {
-    background-color: orangered;
-    color: white;
+    background-color: greenyellow;
+    color: black;
     padding: 15px 30px;
     text-align: center;
     text-decoration: none;
@@ -39,7 +40,7 @@ body {
 .food {
     width: 20px;
     height: 20px;
-    background-color: red;
+    background-color: orange;
     position: absolute;
     border-radius: 50%;
     animation: blink 1s infinite;
@@ -54,7 +55,7 @@ body {
 .snake {
     width: 20px;
     height: 20px;
-    background-color: chartreuse;
+    background-color: black;
     position: absolute;
     border-radius: 5px;
 }
